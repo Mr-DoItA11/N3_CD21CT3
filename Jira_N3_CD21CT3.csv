@@ -1,0 +1,304 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Labels,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Cloners),Inward issue link (Cloners),Inward issue link (Cloners),Outward issue link (Cloners),Custom field (Actual Result),Custom field (Actual end),Custom field (Actual start),Custom field (Category),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Compass),Custom field (Development),Custom field (Epic Color),Custom field (Epic Link),Epic Link Summary,Custom field (Epic Name),Custom field (Epic Status),Custom field (Expected Result),Custom field (Impact),Custom field (Issue color),Custom field (Locked forms),Custom field (Open forms),Custom field (Rank),Custom field (Request Type),Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Test Level),Custom field (Test Steps),Custom field (Testcase Result),Custom field (Total forms),Custom field ([CHART] Date of First Response),Status Category
+"C27 - Verify Last Name - Last Name không được chứa kí tự đặc biệt, nếu không sẽ hiển thị lỗi ""You have entered invalid character(s): X""",N3-51,10363,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 4:59 PM,03/Jan/23 5:02 PM,21/Mar/23 7:45 PM,,,0,NewAccount,"Fisrt Name không được chứa kí tự đặc biệt, nếu không sẽ hiển thị lỗi ""You have entered invalid character(s): X""
+
+Test data:
+
+Fisrt Name: Thanh Huy$ (fail)
+
+Fisrt Name: Thanh Huy (pass)",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,,,,N3-50,Như mong đợi,,,,,,,,,,,,,,"Fisrt Name không được chứa kí tự đặc biệt, nếu không sẽ hiển thị lỗi ""You have entered invalid character(s): X""",,,,,0|i0025b:,,BAM Sprint 1,,,,,,,,Unit,"B1. Nhập vào ô Fisrt Name là 'Thanh Huy$'
+B2. Nhấn tab",Pass,,,To Do
+"C26 - Verify First Name - Fisrt Name không được chứa kí tự đặc biệt, nếu không sẽ hiển thị lỗi ""You have entered invalid character(s): X""",N3-50,10362,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 4:57 PM,03/Jan/23 5:03 PM,21/Mar/23 7:45 PM,,,0,NewAccount,"Fisrt Name không được chứa kí tự đặc biệt, nếu không sẽ hiển thị lỗi ""You have entered invalid character(s): X""
+
+Test data:
+
+Fisrt Name: Thanh Huy$ (fail)
+
+Fisrt Name: Thanh Huy (pass)",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,N3-51,,,N3-13,Như mong đợi,,,,,,,,,,,,,,"Fisrt Name không được chứa kí tự đặc biệt, nếu không sẽ hiển thị lỗi ""You have entered invalid character(s): X""",,,,,0|i00253:,,BAM Sprint 1,,,,,,,,Unit,"B1. Nhập vào ô Fisrt Name là 'Thanh Huy$'
+B2. Nhấn tab",Pass,,,To Do
+"C25 - Verify Last Name - Last Name không được chứa kí tự số, nếu không sẽ hiển thị lỗi ""You have entered invalid character(s): x""",N3-49,10361,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 4:55 PM,03/Jan/23 4:56 PM,21/Mar/23 7:45 PM,,,0,NewAccount,"Last Name không được chứa kí tự số, nếu không sẽ hiển thị lỗi ""You have entered invalid character(s): x""
+
+Test data:
+
+Fisrt Name: Huy6 (fail)
+
+Fisrt Name:  Huy (pass)",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,,,,N3-47,Như mong đợi,,,,,,,,,,,,,,"Fisrt Name không được chứa kí tự số, nếu không sẽ hiển thị lỗi ""You have entered invalid character(s): x""",,,,,0|i0024v:,,BAM Sprint 1,,,,,,,,Unit,"B1. Nhập vào ô Last Name là 'Huy6'
+B2. Nhấn tab",Pass,,,To Do
+IP17- Verify password must be in correct format -Enter invalid password in password field,N3-48,10360,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Dũng Lê,62aaae806be17d006f30a864,Dũng Lê,62aaae806be17d006f30a864,03/Jan/23 4:52 PM,03/Jan/23 4:52 PM,21/Mar/23 7:45 PM,,,0,Login,password không hợp lệ,,Dũng Lê,62aaae806be17d006f30a864,,,,,,,,,,,,,Please enter a password.,,,,,,,,,,,,,,Password không được để trống,,,,,0|i0024n:,,BAM Sprint 1,,,,,,,,Integration,"test data:
+email address-ledung28062003@gmail.com
+pass-",Pass,,,To Do
+"C24 - Verify First Name - Fisrt Name không được chứa kí tự số, nếu không sẽ hiển thị lỗi ""You have entered invalid character(s): x""",N3-47,10359,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 4:52 PM,03/Jan/23 4:55 PM,21/Mar/23 7:45 PM,,,0,NewAccount,"Fisrt Name không được chứa kí tự số, nếu không sẽ hiển thị lỗi ""You have entered invalid character(s): x""
+
+Test data:
+
+Fisrt Name: Huy6 (fail)
+
+Fisrt Name:  Huy (pass)",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,N3-49,,,N3-18,Như mong đợi,,,,,,,,,,,,,,"Fisrt Name không được chứa kí tự số, nếu không sẽ hiển thị lỗi ""You have entered invalid character(s): x""",,,,,0|i0024f:,,BAM Sprint 1,,,,,,,,Unit,"B1. Nhập vào ô Fisrt Name là 'Huy6'
+B2. Nhấn tab",Pass,,,To Do
+IP16- Verify email address must be in correct format -Enter invalid email address  in email address field,N3-46,10358,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Dũng Lê,62aaae806be17d006f30a864,Dũng Lê,62aaae806be17d006f30a864,03/Jan/23 4:49 PM,03/Jan/23 4:49 PM,21/Mar/23 7:45 PM,,,0,Login,email address không hợp lệ,,Dũng Lê,62aaae806be17d006f30a864,,,,,,,,,,,,,Please enter a valid email address.,,,,,,,,,,,,,,email không hợp lệ,,,,,0|i00247:,,BAM Sprint 1,,,,,,,,Integration,"test data:
+email address-dgfshkgsg
+pass-Lethaidung1",Pass,,,To Do
+"C23 - Verify Checkout - Khi để trống Last Name thì hiển thị lỗi ""Please enter your last name.""",N3-45,10357,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 4:41 PM,03/Jan/23 4:42 PM,21/Mar/23 7:45 PM,,,0,Checkout,"Khi để trống Last Name thì hiển thị lỗi ""Please enter your last name.""",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,,,,N3-44,như mong đợi,,,,,,,,,,,,,,"Khi để trống First Name thì hiển thị lỗi ""Please enter your first name.""",,,,,0|i0023z:,,BAM Sprint 1,,,,,,,,Unit,"B1. Để trống ô Last Name
+B2. Nhấn tab",Pass,,,To Do
+"C22 - Verify Checkout - Khi để trống First Name thì hiển thị lỗi ""Please enter your first name.""",N3-44,10356,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 4:39 PM,03/Jan/23 4:41 PM,21/Mar/23 7:45 PM,,,0,Checkout,"Khi để trống First Name thì hiển thị lỗi ""Please enter your first name.""",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,N3-45,,,,như mong đợi,,,,,,,,,,,,,,"Khi để trống First Name thì hiển thị lỗi ""Please enter your first name.""",,,,,0|i0023r:,,BAM Sprint 1,,,,,,,,Unit,"B1. Để trống ô First Name
+B2. Nhấn tab",Pass,,,To Do
+IP15- Verify email address must be in correct format -Enter invalid email address  in email address field,N3-43,10355,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Dũng Lê,62aaae806be17d006f30a864,Dũng Lê,62aaae806be17d006f30a864,03/Jan/23 4:39 PM,03/Jan/23 4:39 PM,21/Mar/23 7:45 PM,,,0,Login,email address không hợp lệ,,Dũng Lê,62aaae806be17d006f30a864,,,,,,,,,,,,,Please enter a valid email address.,,,,,,,,,,,,,,Please enter a valid email address.,,,,,0|i0023j:,,BAM Sprint 1,,,,,,,,Integration,"test data:
+email address-
+pass-Lethaidung1",Pass,,,To Do
+B21 - Verify Buy - Khi ta không chọn size mà nhấn nút mua hàng thì sẽ hiển thị lỗi 'Please select a size.',N3-42,10354,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 4:32 PM,03/Jan/23 4:32 PM,21/Mar/23 7:45 PM,,,0,Buy,Khi ta không chọn size mà nhấn nút mua hàng thì sẽ hiển thị lỗi 'Please select a size.',,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,,,,,Như mong đợi,,,,,,,,,,,,,,Khi ta không chọn size mà nhấn nút mua hàng thì sẽ hiển thị lỗi 'Please select a size.',,,,,0|i0023b:,,BAM Sprint 1,,,,,,,,Unit,"B1. Chọn sản phẩm
+B2. Bỏ qua phần chọn size
+B3. Nhấn 'Add to cart'",Pass,,,To Do
+IP14- Verify volume must be in correct format -Enter invalid volume in volume field,N3-41,10353,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Dũng Lê,62aaae806be17d006f30a864,Dũng Lê,62aaae806be17d006f30a864,03/Jan/23 4:30 PM,03/Jan/23 4:32 PM,21/Mar/23 7:45 PM,,,0,NewAccount,{{volume}} không phù hợp,,Dũng Lê,62aaae806be17d006f30a864,,,,,,,,,,,,,không thông báo,,,,,,,,,,BAN-7,Edit Customer,,,volume không hợp lệ,,,,,0|i00233:,,BAM Sprint 1,,,,,,,,Integration,"test data:
+Email -ledung28062003@gmail.com
+pass-Lethaidung1
+First Name- Dũng
+Họ- Lê
+ngày sinh: 02/08/2003
+Nước-VietNam
+Gioi tính-Male
+volume-
+JOIN US",Fail,,,To Do
+IP13- Verify sex must be in correct format -Enter invalid sex in sex field,N3-40,10352,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Dũng Lê,62aaae806be17d006f30a864,Dũng Lê,62aaae806be17d006f30a864,03/Jan/23 4:23 PM,03/Jan/23 4:23 PM,21/Mar/23 7:45 PM,,,0,NewAccount,Sex không hợp lệ,,Dũng Lê,62aaae806be17d006f30a864,,,,,,,,,,,,,Sex không hợp lệ,,,,,,,,,,BAN-7,Edit Customer,,,Sex không được để trống,,,,,0|i0022v:,,BAM Sprint 1,,,,,,,,Integration,"test data:
+Email -ledung28062003@gmail.com
+pass-Lethaidung1
+First Name- Dũng
+Họ- Lê
+ngày sinh: 02/08/2003
+Nước-VietNam
+Gioi tính-
+JOIN US",Pass,,,To Do
+IP12- Verify Nation must be in correct format -Enter invalid Nation in pass field,N3-39,10351,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Dũng Lê,62aaae806be17d006f30a864,Dũng Lê,62aaae806be17d006f30a864,03/Jan/23 4:16 PM,03/Jan/23 4:19 PM,21/Mar/23 7:45 PM,,,0,NewAccount,{{Nation}} không hợp lệ ,,Dũng Lê,62aaae806be17d006f30a864,,,,,,,,,,,,,Quốc gia không hợp lệ,,,,,,,,,,BAN-7,Edit Customer,,,Quốc gia không được để trống,,,,,0|i0022n:,,BAM Sprint 1,,,,,,,,Integration,"test data:
+Email -ledung28062003@gmail.com
+pass-Lethaidung1
+First Name- Dũng
+Họ- Lê
+ngày sinh: 11/01/0001
+Nước-
+Gioi tính-Male
+JOIN US",Pass,,,To Do
+SC20 - Verify New Account - Verify Khi tạo tài khoản thành công thì lưu lại thông tin khách hàng và chuyển người dùng về trang chủ,N3-38,10350,Story,Done,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,Done,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 4:15 PM,03/Jan/23 4:21 PM,21/Mar/23 7:45 PM,03/Jan/23 4:21 PM,,0,Login,"Khi tạo tài khoản thành công thì lưu lại thông tin khách hàng và chuyển người dùng về trang chủ
+
+Test data: 
+
+Email address: [nguyenlethanhhuy2003@gmail.com|mailto:nguyenlethanhhuy2003@gmail.com] 
+
+password: Thanhhuy123
+
+First name: Huy
+
+Last Name: Thanh
+
+Date of Birth: 07/12/2003
+
+Giới tính: Male
+
+(Chọn) Sign up for emails to get updates from Nike on products, offers and your Member benefits",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,,,,N3-37,như mong đợi,,,,,,,,,,,,,,Khi tạo tài khoản thành công thì lưu lại thông tin khách hàng và chuyển người dùng về trang chủ,,,,,0|i0022f:,,BAM Sprint 1,,,,,,,,System,"b1. Nhập thông tin đăng ký trong testdata.
+b2. Nhấn 'Join Us'",,,,Done
+SC19 - Verify Login - Verify Khi đăng nhập thành công thì chuyển hướng người dùng ra trang chủ.,N3-37,10349,Story,Done,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,Done,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 4:11 PM,03/Jan/23 4:21 PM,21/Mar/23 7:45 PM,03/Jan/23 4:21 PM,,0,Login,"Verify Khi đăng nhập thành công thì chuyển hướng người dùng ra trang chủ.
+
+Test data: 
+
+Email address: [nguyenlethanhhuy2003@gmail.com|mailto:nguyenlethanhhuy2003@gmail.com] 
+
+password: Thanhhuy123",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,N3-38,,,,như mong đợi,,,,,,,,,,,,,,Khi đăng nhập thành công thì chuyển hướng người dùng ra trang chủ.,,,,,0|i00227:,,BAM Sprint 1,,,,,,,,System,"b1. Nhập tài khoản trong testdata.
+b2. Nhấn đăng nhập",,,,Done
+IP11- Verify Date of Birth must be in correct format -Enter invalid Date of Birth in pass field,N3-36,10348,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Dũng Lê,62aaae806be17d006f30a864,Dũng Lê,62aaae806be17d006f30a864,03/Jan/23 4:10 PM,03/Jan/23 4:16 PM,21/Mar/23 7:45 PM,,,0,NewAccount,Date of Birth không hợp lệ,,Dũng Lê,62aaae806be17d006f30a864,,,,,,,,,,,,,Please enter a valid date of birth.,,,,,,,,,,BAN-7,Edit Customer,,,Please enter a valid date of birth.,,,,,0|i0021z:,,BAM Sprint 1,,,,,,,,Integration,"test data:
+Email -ledung28062003@gmail.com
+pass-Lethaidung1
+First Name- Dũng
+Họ- Lê
+ngày sinh: 11/01/0001
+Nước-Việt Nam
+Gioi tính-Male
+JOIN US",Pass,,,To Do
+IP10- Verify Date of Birth must be in correct format -Enter invalid Date of Birth in pass field,N3-35,10347,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Dũng Lê,62aaae806be17d006f30a864,Dũng Lê,62aaae806be17d006f30a864,03/Jan/23 4:08 PM,03/Jan/23 4:17 PM,21/Mar/23 7:45 PM,,,0,NewAccount,Date of Birth không hợp lệ ,,Dũng Lê,62aaae806be17d006f30a864,,,,,,,,,,,,,Please enter a valid date of birth.,,,,,,,,,,BAN-7,Edit Customer,,,Please enter a valid date of birth.,,,,,0|i0021r:,,BAM Sprint 1,,,,,,,,Integration,"test data:
+Email -ledung28062003@gmail.com
+pass-Lethaidung1
+First Name- Dũng
+Họ- Lê
+ngày sinh: 
+Nước-Việt Nam
+Gioi tính-Male
+JOIN US",Pass,,,To Do
+IP09- Verify Last Name must be in correct format -Enter invalid Last Name in pass field,N3-34,10346,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Dũng Lê,62aaae806be17d006f30a864,Dũng Lê,62aaae806be17d006f30a864,03/Jan/23 4:04 PM,03/Jan/23 4:17 PM,21/Mar/23 7:45 PM,,,0,NewAccount,Last name không hợp lệ,,Dũng Lê,62aaae806be17d006f30a864,,,,,,,,,,,,,Please enter a valid last name.,,,,,,,,,,BAN-7,Edit Customer,,,Please enter a valid last name.,,,,,0|i0021j:,,BAM Sprint 1,,,,,,,,Integration,"test data:
+Email -ledung28062003@gmail.com
+pass-Lethaidung1
+First Name- 
+Họ- 123
+ngày sinh: 02/08/2003
+Nước-Việt Nam
+Gioi tính-Male
+JOIN US",Pass,,,To Do
+IP08- Verify Last Name must be in correct format -Enter invalid Last Name in pass field,N3-33,10345,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Dũng Lê,62aaae806be17d006f30a864,Dũng Lê,62aaae806be17d006f30a864,03/Jan/23 4:01 PM,03/Jan/23 4:17 PM,21/Mar/23 7:45 PM,,,0,NewAccount,Last name không hợp lệ,,Dũng Lê,62aaae806be17d006f30a864,,,,,,,,,,,,,Please enter a valid last name.,,,,,,,,,,BAN-1,Balance Enquiry,,,Please enter a valid last name.,,,,,0|i0021b:,,BAM Sprint 1,,,,,,,,Integration,"test data:
+Email -ledung28062003@gmail.com
+pass-Lethaidung1
+First Name- Dũng
+Họ- 
+ngày sinh: 02/08/2003
+Nước-Việt Nam
+Gioi tính-Male
+JOIN US",Pass,,,To Do
+IP07- Verify First Name must be in correct format -Enter invalid First Name in pass field,N3-32,10344,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Dũng Lê,62aaae806be17d006f30a864,Dũng Lê,62aaae806be17d006f30a864,03/Jan/23 3:57 PM,03/Jan/23 4:17 PM,21/Mar/23 7:45 PM,,,0,NewAccount,Tên không hợp lệ,,Dũng Lê,62aaae806be17d006f30a864,,,,,,,,,,,,,Vui lòng nhập tên hợp lệ.,,,,,,,,,,BAN-7,Edit Customer,,,không được để trống,,,,,0|i00213:,,BAM Sprint 1,,,,,,,,Integration,"test data:
+Email -ledung28062003@gmail.com
+pass-Lethaidung1
+First Name- 
+Họ- Lê
+ngày sinh: 02/08/2003
+Nước-Việt Nam
+Gioi tính-Male
+JOIN US",Pass,,,To Do
+IP06- Verify First Name must be in correct format -Enter invalid First Name in pass field,N3-31,10343,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Dũng Lê,62aaae806be17d006f30a864,Dũng Lê,62aaae806be17d006f30a864,03/Jan/23 3:53 PM,03/Jan/23 4:17 PM,21/Mar/23 7:45 PM,,,0,NewAccount,Tên không hợp lệ,,Dũng Lê,62aaae806be17d006f30a864,,,,,,,,,,,,,Please enter a valid first name.,,,,,,,,,,BAN-7,Edit Customer,,,Please enter a valid first name.,,,,,0|i0020v:,,BAM Sprint 1,,,,,,,,Integration,"test data:
+Email -ledung28062003@gmail.com
+pass-LETHAIDUNG1
+First Name- 123
+Họ- Lê
+ngày sinh: 02/08/2003
+Nước-Việt Nam
+Gioi tính-Male
+JOIN US",Pass,,,To Do
+NA18 - Verify Khi chưa chọn giới tính mà nhấn 'Join Us' thì hiển thị lỗi 'Please select a preference.',N3-30,10342,Story,Done,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,Done,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 3:51 PM,03/Jan/23 4:21 PM,21/Mar/23 7:45 PM,03/Jan/23 4:21 PM,,0,NewAccount,Khi chưa chọn giới tính mà nhấn 'Join Us' thì hiển thị lỗi 'Please select a preference.',,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,,,,,Như mong đợi,,,,,,,,,,,,,,Khi chưa chọn giới tính mà nhấn 'Join Us' thì hiển thị lỗi 'Please select a preference.',,,,,0|i0020n:,,BAM Sprint 1,,,,,,,,Unit,"B1. Bỏ qua ô chọn giới tính
+B2. Nhấn 'Join Us'",Pass,,,Done
+IP05- Verify Pass must be in correct format -Enter invalid pass in pass field,N3-29,10341,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Dũng Lê,62aaae806be17d006f30a864,Dũng Lê,62aaae806be17d006f30a864,03/Jan/23 3:50 PM,03/Jan/23 4:17 PM,21/Mar/23 7:45 PM,,,0,NewAccount,Mật khẩu không hợp lệ,,Dũng Lê,62aaae806be17d006f30a864,,,,,,,,,,,,,Mật khẩu không đáp ứng yêu cầu tối thiểu.,,,,,,,,,,BAN-7,Edit Customer,,,Mật khẩu không đáp ứng yêu cầu tối thiểu.,,,,,0|i0020f:,,BAM Sprint 1,,,,,,,,Integration,"test data:
+Email -ledung28062003@gmail.com
+pass-LETHAIDUNG1
+tên nhánh- Dũng
+Họ- Lê
+ngày sinh: 02/08/2003
+Nước-Việt Nam
+Gioi tính-Male
+JOIN US",Pass,,,To Do
+IP04- Verify Pass must be in correct format -Enter invalid pass in pass field,N3-28,10340,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Dũng Lê,62aaae806be17d006f30a864,Dũng Lê,62aaae806be17d006f30a864,03/Jan/23 3:47 PM,03/Jan/23 4:18 PM,21/Mar/23 7:45 PM,,,0,NewAccount,Nhân vật không được phép,,Dũng Lê,62aaae806be17d006f30a864,,,,,,,,,,,,,Mật khẩu không đáp ứng yêu cầu tối thiểu.,,,,,,,,,,BAN-7,Edit Customer,,,Mật khẩu không đáp ứng yêu cầu tối thiểu.,,,,,0|i00207:,,BAM Sprint 1,,,,,,,,Integration,"test data:
+Email -ledung28062003@gmail.com
+pass-Lethaidung
+tên nhánh- Dũng
+Họ- Lê
+ngày sinh: 02/08/2003
+Nước-Việt Nam
+Gioi tính-Male
+JOIN US",Pass,,,To Do
+IP03- Verify Pass must be in correct format -Enter invalid pass in pass field,N3-27,10339,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Dũng Lê,62aaae806be17d006f30a864,Dũng Lê,62aaae806be17d006f30a864,03/Jan/23 3:44 PM,03/Jan/23 4:18 PM,21/Mar/23 7:45 PM,,,0,NewAccount,Mật khẩu không hợp lệ,,Dũng Lê,62aaae806be17d006f30a864,,,,,,,,,,,,,Mật khẩu không đáp ứng yêu cầu tối thiểu.,,,,,,,,,,BAN-7,Edit Customer,,,Mật khẩu không đáp ứng yêu cầu tối thiểu.,,,,,0|i001zz:,,BAM Sprint 1,,,,,,,,Integration,"test data:
+Email -ledung28062003@gmail.com
+pass-Lethai1
+tên nhánh- Dũng
+Họ- Lê
+ngày sinh: 02/08/2003
+Nước-Việt Nam
+Gioi tính-Male
+JOIN US",Pass,,,To Do
+IP02- Verify Pass must be in correct format -Enter invalid pass in pass field,N3-26,10338,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Dũng Lê,62aaae806be17d006f30a864,Dũng Lê,62aaae806be17d006f30a864,03/Jan/23 3:40 PM,03/Jan/23 4:18 PM,21/Mar/23 7:45 PM,,,0,NewAccount,Mật khẩu không hợp lệ,,Dũng Lê,62aaae806be17d006f30a864,,,,,,,,,,,,,Mật khẩu không đáp ứng yêu cầu tối thiểu.,,,,,,,,,,BAN-7,Edit Customer,,,Mật khẩu không đáp ứng yêu cầu tối thiểu.,,,,,0|i001zr:,,BAM Sprint 1,,,,,,,,Integration,"test data:
+Email -ledung28062003@gmail.com
+pass-ethaidung1
+tên nhánh- Dũng
+Họ- Lê
+ngày sinh: 02/08/2003
+Nước-Việt Nam
+Gioi tính-Male
+JOIN US",Pass,,,To Do
+"NA17 - Verify Date of Birth - Điền vào Date of Birth là ngày hợp lệ, nếu không sẽ hiển thị lỗi ""Please enter a valid date of birth.""",N3-25,10337,Story,Done,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,Done,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 3:40 PM,03/Jan/23 4:21 PM,21/Mar/23 7:45 PM,03/Jan/23 4:21 PM,,0,NewAccount,"Điền vào Date of Birth là ngày hợp lệ, nếu không sẽ hiển thị lỗi ""Please enter a valid date of birth.""
+
+Test data:
+
+Date of Birth: 22/09/2222 (fail)
+
+Date of Birth: 22/09/2022(pass)",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,,,,N3-24,Như mong đợi,,,,,,,,,,,,,,"Điền vào Date of Birth là ngày hợp lệ, nếu không sẽ hiển thị lỗi ""Please enter a valid date of birth.""",,,,,0|i001zj:,,BAM Sprint 1,,,,,,,,Unit,"B1. Để trống ô Date of Birth 
+B2. Nhấn tab",Pass,,,Done
+"NA16 - Verify Date of Birth - Date of Birth không được để trống, nếu không sẽ hiển thị lỗi ""Please enter a valid date of birth.""",N3-24,10336,Story,Done,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,Done,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 3:38 PM,03/Jan/23 3:40 PM,21/Mar/23 7:45 PM,03/Jan/23 3:38 PM,,0,NewAccount,"Date of Birth không được để trống, nếu không sẽ hiển thị lỗi ""Please enter a valid date of birth.""",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,N3-25,,,,Như mong đợi,,,,,,,,,,,,,,"Date of Birth không được để trống, nếu không sẽ hiển thị lỗi ""Please enter a valid date of birth.""",,,,,0|i001zb:,,BAM Sprint 1,,,,,,,,Unit,"B1. Để trống ô Date of Birth 
+B2. Nhấn tab",Pass,,,Done
+IP01- Verify Email must be in correct format -Enter invalid email in Email field,N3-23,10335,Story,To Do,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Dũng Lê,62aaae806be17d006f30a864,Dũng Lê,62aaae806be17d006f30a864,03/Jan/23 3:36 PM,21/Mar/23 6:30 PM,21/Mar/23 7:45 PM,,,0,NewAccount,Nhập email không hợp lệ vào trường Email,,Dũng Lê,62aaae806be17d006f30a864,,,,,,,,,,,,,email không hợp lệ,,,,,,,,,,BAN-7,Edit Customer,,,email không hợp lệ,,,,,0|i001zv:,,BAM Sprint 1,,,,,,,,Integration,"test data:
+Email -ledung28062003
+pass-Lethaidung1
+tên nhánh- Dũng
+Họ- Lê
+ngày sinh: 02/08/2003
+Nước-Việt Nam
+Gioi tính-Male
+JOIN US",Pass,,,To Do
+"NA15 - Verify Last Name - Last Name không được chứa kí tự đặc biệt, nếu không sẽ hiển thị lỗi ""Please enter a valid first name.""",N3-22,10334,Story,Done,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,Done,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 3:32 PM,03/Jan/23 4:21 PM,21/Mar/23 5:13 PM,03/Jan/23 4:21 PM,,0,NewAccount,"Last Name không được chứa kí tự đặc biệt, nếu không sẽ hiển thị lỗi ""Please enter a valid first name.""
+
+Test data:
+
+Fisrt Name: Thanh Huy$ (fail)
+
+Fisrt Name: Thanh Huy (pass)",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,,,,N3-13,Như mong đợi,,,,,,,,,,,,,,"Last Name không được chứa kí tự đặc biệt, nếu không sẽ hiển thị lỗi ""Please enter a valid first name.""",,,,,0|i001yv:,,BAM Sprint 1,,,,,,,,Unit,"B1. Nhập vào ô Last Name là 'Thanh Huy$'
+B2. Nhấn tab",Pass,,,Done
+"NA14 - Verify Last Name - Last Name không được chứa kí tự số, nếu không sẽ hiển thị lỗi ""Please enter a valid first name.""",N3-21,10333,Story,Done,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,Done,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 3:29 PM,03/Jan/23 4:21 PM,21/Mar/23 7:45 PM,03/Jan/23 4:21 PM,,0,NewAccount,"Last Name không được chứa kí tự số, nếu không sẽ hiển thị lỗi ""Please enter a valid first name.""
+
+Test data:
+
+Fisrt Name: Thanh Huy6 (fail)
+
+Fisrt Name: Thanh Huy (pass)",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,,,,N3-18,Như mong đợi,,,,,,,,,,,,,,"Fisrt Name không được chứa kí tự đặc biệt, nếu không sẽ hiển thị lỗi ""Please enter a valid first name.""",,,,,0|i001yn:,,BAM Sprint 1,,,,,,,,Unit,"B1. Nhập vào ô Last Name là 'Thanh Huy6'
+B2. Nhấn tab",Pass,,,Done
+"NA13 - Verify Last Name - Last Name không được để trống, nếu không sẽ hiển thị lỗi ""Please enter a valid first name.""",N3-20,10332,Story,Done,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,Done,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 3:16 PM,03/Jan/23 3:27 PM,21/Mar/23 7:45 PM,03/Jan/23 3:27 PM,,0,NewAccount,"Last Name không được để trống, nếu không sẽ hiển thị lỗi ""Please enter a valid first name.""",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,,,,N3-12,Như mong đợi,,,,,,,,,,,,,,"Last Name không được để trống, nếu không sẽ hiển thị lỗi ""Please enter a valid first name.""",,,,,0|i001yf:,,BAM Sprint 1,,,,,,,,Unit,"B1. Để trống ô Fisrt Name
+B2. Nhấn tab",Pass,,,Done
+"NA12 - Verify First Name - Fisrt Name không được chứa kí tự số, nếu không sẽ hiển thị lỗi ""Please enter a valid first name.""",N3-18,10330,Story,Done,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,Done,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 3:13 PM,03/Jan/23 4:54 PM,21/Mar/23 7:45 PM,03/Jan/23 3:27 PM,,0,NewAccount,"Fisrt Name không được chứa kí tự số, nếu không sẽ hiển thị lỗi ""Please enter a valid first name.""
+
+Test data:
+
+Fisrt Name: Thanh Huy6 (fail)
+
+Fisrt Name: Thanh Huy (pass)",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,N3-21,N3-47,,N3-13,Như mong đợi,,,,,,,,,,,,,,"Fisrt Name không được chứa kí tự số, nếu không sẽ hiển thị lỗi ""Please enter a valid first name.""",,,,,0|i001xz:,,BAM Sprint 1,,,,,,,,Unit,"B1. Nhập vào ô Fisrt Name là 'Thanh Huy6'
+B2. Nhấn tab",Pass,,,Done
+"NA11 - Verify First Name - Fisrt Name không được chứa kí tự đặc biệt, nếu không sẽ hiển thị lỗi ""Please enter a valid first name.""",N3-13,10325,Story,Done,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,Done,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 3:00 PM,03/Jan/23 4:57 PM,21/Mar/23 7:45 PM,03/Jan/23 3:27 PM,,0,NewAccount,"Fisrt Name không được chứa kí tự đặc biệt, nếu không sẽ hiển thị lỗi ""Please enter a valid first name.""
+
+Test data:
+
+Fisrt Name: Thanh Huy$ (fail)
+
+Fisrt Name: Thanh Huy (pass)",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,N3-18,N3-22,N3-50,N3-12,Như mong đợi,,,,,,,,,,,,,,"Fisrt Name không được chứa kí tự đặc biệt, nếu không sẽ hiển thị lỗi ""Please enter a valid first name.""",,,,,0|i001wv:,,BAM Sprint 1,,,,,,,,Unit,"B1. Nhập vào ô Fisrt Name là 'Thanh Huy$'
+B2. Nhấn tab",Pass,,,Done
+"NA10 - Verify First Name - Fisrt Name không được để trống, nếu không sẽ hiển thị lỗi ""Please enter a valid first name.""",N3-12,10324,Story,Done,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,Done,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 2:59 PM,03/Jan/23 3:27 PM,21/Mar/23 7:45 PM,03/Jan/23 3:27 PM,,0,NewAccount,"Fisrt Name không được để trống, nếu không sẽ hiển thị lỗi ""Please enter a valid first name.""",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,N3-13,N3-20,,,Như mong đợi,,,,,,,,,,,,,,"Fisrt Name không được để trống, nếu không sẽ hiển thị lỗi ""Please enter a valid first name.""",,,,,0|i001wn:,,BAM Sprint 1,,,,,,,,Unit,"B1. Để trống ô Fisrt Name
+B2. Nhấn tab",Pass,,,Done
+"NA09 - Verify Password - Password phải có ít nhất 1 kí tự là số, nếu không sẽ hiển thị lỗi",N3-11,10323,Story,Done,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,Done,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 2:52 PM,03/Jan/23 3:27 PM,21/Mar/23 7:45 PM,03/Jan/23 3:27 PM,,0,NewAccount,"Password phải có ít nhất 1 kí tự là số, nếu không sẽ hiển thị lỗi
+
+Test data: 
+
+Password: huyhuyhuyyy
+
+Password: Huyhuyhuy2",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,,,,N3-9,Như mong đợi,,,,,,,,,,,,,,"Password phải có ít nhất 1 kí tự là số, nếu không sẽ hiển thị lỗi",,,,,0|i001wf:,,BAM Sprint 1,,,,,,,,Unit,"B1. Nhập vào password là ""huyhuyhuyyy"".
+B2. Nhấn tab",Pass,,,Done
+"NA08 - Verify Password - Password phải có ít nhất 1 kí tự viết hoa, nếu không sẽ hiển thị lỗi",N3-9,10321,Story,Done,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,Done,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 2:49 PM,03/Jan/23 3:27 PM,21/Mar/23 7:45 PM,03/Jan/23 3:27 PM,,0,NewAccount,"Password phải có ít nhất 1 kí tự viết hoa, nếu không sẽ hiển thị lỗi
+
+Test data: 
+
+Password: huyhuyhuyyy2
+
+Password: Huyhuyhuy2",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,N3-11,,,N3-8,Như mong đợi,,,,,,,,,,,,,,"Password phải có ít nhất 1 kí tự viết hoa, nếu không sẽ hiển thị lỗi",,,,,0|i001vz:,,BAM Sprint 1,,,,,,,,Unit,"B1. Nhập vào password là ""huyhuyhuyyy2"".
+B2. Nhấn tab",Pass,,,Done
+"NA07 - Verify Password - Password phải có ít nhất 1 kí tự viết thường, nếu không sẽ hiển thị lỗi",N3-8,10320,Story,Done,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,Done,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 2:46 PM,03/Jan/23 3:27 PM,21/Mar/23 7:45 PM,03/Jan/23 3:27 PM,,0,NewAccount,"Password phải có ít nhất 1 kí tự viết thường, nếu không sẽ hiển thị lỗi
+
+Test data: 
+
+Password: HUYYYUYU2
+
+Password: Huyhuyhuy2",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,N3-9,,,N3-7,Như mong đợi,,,,,,,,,,,,,,"Password phải có ít nhất 1 kí tự viết thường, nếu không sẽ hiển thị lỗi",,,,,0|i001vr:,,BAM Sprint 1,,,,,,,,Unit,"B1. Nhập vào password là ""HUYYYUYU2"".
+B2. Nhấn tab",Pass,,,Done
+"NA06 - Verify Password - Password phải ít nhất 8 kí tự, nếu không sẽ hiển thị lỗi",N3-7,10319,Story,Done,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,Done,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 2:38 PM,03/Jan/23 3:27 PM,21/Mar/23 7:45 PM,03/Jan/23 3:27 PM,,0,NewAccount,"Password phải ít nhất 8 kí tự, nếu không sẽ hiển thị lỗi
+
+Test data: 
+
+Password: huyad
+
+Password: Huyhuyhuy2",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,N3-8,,,N3-3,Như mong đợi,,,,,,,,,,,,,,"Password phải ít nhất 8 kí tự, nếu không sẽ hiển thị lỗi",,,,,0|i001vj:,,BAM Sprint 1,,,,,,,,Unit,"B1. Nhập vào password là ""huyad"".
+B2. Nhấn tab",Pass,,,Done
+"NA05 - Verify Email address - Nếu để trống Email address thì hiển thị lỗi ""Please enter a valid email address.""",N3-6,10318,Story,Done,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,Done,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 2:35 PM,03/Jan/23 3:27 PM,21/Mar/23 7:45 PM,03/Jan/23 3:27 PM,,0,NewAccount,"Nếu để trống Email address thì hiển thị lỗi ""Please enter a valid email address.""",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,,,,N3-1,Như mong đợi,,,,,,,,,,,,,,"Nếu để trống Email address thì hiển thị lỗi ""Please enter a valid email address.""",,,,,0|i001vb:,,BAM Sprint 1,,,,,,,,Unit,"B1. Để trống ô Email address
+B2. Nhấn tab",Pass,,,Done
+"NA04 - Verify Email address - Nếu nhập Email address sai định dạng thì báo lỗi ""Please enter a valid email address.""",N3-5,10317,Bug,In Progress,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 2:32 PM,03/Jan/23 4:48 PM,21/Mar/23 7:45 PM,,,0,NewAccount,"Nếu nhập Email address sai định dạng thì báo lỗi ""Please enter a valid email address.""
+
+Test data: 
+
+Email address: [djhsjudhasdhaduyasduduhduad@gasdaskdhas.com|mailto:djhsjudhasdhaduyasduduhduad@gasdaskdhas.com]
+
+Email address: huyabcxyz@gmail.com",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,,,,N3-2,Như mong đợi,,,,,,,,,,,,,,"Nếu nhập Email address sai định dạng thì báo lỗi ""Please enter a valid email address.""",,,,,0|i001v3:,,BAM Sprint 1,,,,,,,,Unit,"B1. Nhập  vào Email address là djhsjudhasdhaduyasduduhduad@gasdaskdhas.com
+B2. Nhấn tab",Fail,,,In Progress
+"L03 - Verify Password - Nếu để trống Password thì hiển thị lỗi ""Please enter a password.""",N3-3,10315,Story,Done,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,Done,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 2:13 PM,03/Jan/23 2:38 PM,21/Mar/23 7:45 PM,03/Jan/23 2:17 PM,,0,Login,"Nếu để trống Password thì hiển thị lỗi ""Please enter a password.""",,,,,,,,,,,,N3-7,,,N3-1,Như mong đợi,,,,,,,,,,,,,,"Nếu để trống Password thì hiển thị lỗi ""Please enter a password.""",,,,,0|i001un:,,BAM Sprint 1,,,,,,,,Unit,"B1. Để trống ô Password
+B2. Nhấn tab",Pass,,,Done
+"L02 - Verify Email address - Nếu nhập Email address sai định dạng thì báo lỗi ""Please enter a valid email address.""",N3-2,10314,Bug,In Progress,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 2:05 PM,03/Jan/23 4:50 PM,21/Mar/23 7:45 PM,,,0,Login,"Nếu nhập Email address sai định dạng thì báo lỗi ""Please enter a valid email address.""
+
+Test data: 
+
+Email address: [djhsjudhasdhaduyasduduhduad@gasdaskdhas.com|mailto:djhsjudhasdhaduyasduduhduad@gasdaskdhas.com]
+
+Email address: huyabcxyz@gmail.com",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,N3-5,,,N3-1,Như mong đợi,,,,,,,,,,,,,,"Nếu nhập Email address sai định dạng thì báo lỗi ""Please enter a valid email address.""",,,,,0|i001uf:,,BAM Sprint 1,,,,,,,,Unit,"B1. Nhập  vào Email address là djhsjudhasdhaduyasduduhduad@gasdaskdhas.com
+B2. Nhấn tab",Fail,,,In Progress
+"L01 - Verify Email address - Nếu để trống Email address thì hiển thị lỗi ""Please enter a valid email address.""",N3-1,10313,Story,Done,N3,N3_CD21CT03,software,Minh Trần,62980d4d658d580068894b07,,Medium,Done,,,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,03/Jan/23 2:03 PM,03/Jan/23 2:35 PM,21/Mar/23 7:45 PM,03/Jan/23 2:17 PM,,0,Login,"Nếu để trống Email address thì hiển thị lỗi ""Please enter a valid email address.""",,Lê Thanh Huy Nguyễn,62980cbde54087006966ebe5,,,,,,,,,N3-2,N3-3,N3-6,,Như mong đợi,,,,,,,,,,,,,,"Nếu để trống Email address thì hiển thị lỗi ""Please enter a valid email address.""",,,,,0|i001u7:,,BAM Sprint 1,,,,,,,,Unit,"B1. Để trống ô Email address
+B2. Nhấn tab",Pass,,,Done
